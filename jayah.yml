@@ -305,7 +305,7 @@ Intents:
           value: 0-0-2
           text: Qui.. qui êtes-...
     objectId: p6kt3RS6AF
-  0-0-3-3 pas paniqué:
+  0-0-3-3 pas panique:
     when:
       match events:
         - 0-0-3-3
@@ -319,7 +319,7 @@ Intents:
           - >-
             Et bien considérez que ce que vous vivez en ce moment est une
             expérience similaire
-    objectId: 5Jb5945Lg8
+    objectId: G27j2Nxm3d
   Welcome Intent:
     when:
       match phrases: '${i18n.Intents.Welcome Intent.when.match phrases}'
@@ -385,7 +385,6 @@ Intents:
       - say event:
           text: Suivant
           value: 4-2-1
-          quickReply: false
     parameters:
       fr: []
     objectId: 5Vj00m4utU
@@ -416,7 +415,6 @@ Intents:
       - say event:
           text: Suivant
           value: 4-2-2
-          quickReply: false
     parameters:
       fr: []
     objectId: pXWACDPkA6
@@ -477,7 +475,6 @@ Intents:
       - say text: La suite prochainement...
       - say event:
           value: WELCOME
-          quickReply: false
           text: S'endormir profondément...
     parameters:
       fr: []
@@ -522,7 +519,6 @@ Intents:
           text: florian-peyron-toothland-12.jpg
           value: >-
             https://ggwg-core-storage.oss.eu-west-0.prod-cloud-ocb.orange-business.com/picb6d0d8b11b4eb35c68116d9f6320bb4c_florianpeyrontoothland12jpg.jpeg
-          quickReply: false
     parameters:
       fr: []
     objectId: qLcxkAU5yB
@@ -536,7 +532,6 @@ Intents:
           text: image01.jpg
           value: >-
             https://ggwg-core-storage.oss.eu-west-0.prod-cloud-ocb.orange-business.com/picf6336682b72eecc7d1aa5b2da341c7fa_image01jpg.jpeg
-          quickReply: false
     parameters:
       fr: []
     objectId: XnZbgKgNNt
@@ -650,7 +645,6 @@ Intents:
             - say event:
                 text: Découvrir
                 value: 2-2-0
-                quickReply: false
           title: L'île aux dents
           text: 'Une île bordée de dents, où reigne la Grande Méchante Souris'
           image: >-
@@ -722,7 +716,6 @@ Intents:
             - say event:
                 text: Lire
                 value: 4-1-0
-                quickReply: false
           title: Le village bibliothèque
           text: 'Jadis une bibliothèque, en ses ruines prospère un village'
           image: >-
@@ -732,7 +725,6 @@ Intents:
             - say event:
                 text: Lire
                 value: 4-2-0
-                quickReply: false
           title: Champiternel
           text: Les péripéties d'un chasseur de nuage
           image: >-
@@ -749,7 +741,6 @@ Intents:
             - say event:
                 text: Observer
                 value: 3-1-0
-                quickReply: false
           title: Flamants morts
           image: >-
             https://ggwg-core-storage.oss.eu-west-0.prod-cloud-ocb.orange-business.com/pic18f4edac247dc79951bc04cf65c8f22c_flamingojpg.jpeg
@@ -759,7 +750,6 @@ Intents:
             - say event:
                 text: Observer
                 value: 3-2-0
-                quickReply: false
           title: Archonte vaporeux
           image: >-
             https://ggwg-core-storage.oss.eu-west-0.prod-cloud-ocb.orange-business.com/pic77fc6c46d9ada5ba492ddb4e7a325f07_Archonjpg.jpeg
