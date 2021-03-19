@@ -143,6 +143,12 @@ Settings:
       notificationEnabled: true
       secondaryColor: '#826897'
       primaryColor: '#cc1964'
+      fr:
+        persistentMenu:
+          - type: event
+            label: Effacer la conversation
+            value: DELETE
+            icon: delete
     web:
       theme:
         name: lightBlue
