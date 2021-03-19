@@ -1,0 +1,68 @@
+{
+  "portal": {
+    "theme": {
+      "name": "lightBlue",
+      "config": {
+        "colors": {
+          "primary": "#cc1964",
+          "primary-light": "#cc1964",
+          "background": "rgb(185 45 85 / 18%);",
+          "border-light": "rgba(170,22,64,0.2)",
+          "primary-dark": "#826897",
+          "primary-contrast": "#f1e5e5",
+          "secondary": "#cc1964"
+        }
+      }
+    },
+    "enabled": true,
+    "hideLikes": true,
+    "customStyles": ".userAction {\n    color: #916ccb;\n    font-style: italic;\n}\n\n.pr-message-item-text__container img {\n  width: unset !important;\n  max-width: 100%;\n  max-height: 75vh;\n}\n\n.pr-chat-container {\n  background-color: #151314;\n}\n\n.pr-chat-head {\n  background-color: transparent !important;\n}\n\n.pr-sidebar__title {\n  color: #b1235b;\n  font-size: 25px;\n  margin-top: 12px;\n  overflow: visible !important;\n}\n\n.pr-navigation {\n  background-color: transparent;\n}\n\n.pr-conversation__footer {\n  background-color: transparent;\n}\n\n.pr-input {\n  background-color: transparent;\n}\n\n.pr-voice-recognition {\n  display: none;\n}\n\n.pr-input__input {\n  background-color: #000000;\n  border: solid 2px rgb(128 36 61);\n}\n\n.pr-powered-by {\n  display: none;\n}\n\n.pr-sidebar__image {\n  border-radius: 50%; \n}\n\n.pr-chat-head {\n  background-image: none;\n}\n\n.pr-message-footer__text--bot-name {\n  display: none;\n}\n\n.pr-message-footer__text {\n  display: none;\n}\n\n.pr-conversation__messages {\n  border: none;\n  scrollbar-width: none;\n}\n\n.pr-conversation__messages::-webkit-scrollbar {\n  display: none;\n}\n\n.pr-side-panel__display {\n  scrollbar-width: none;\n}\n\n.pr-side-panel__display::-webkit-scrollbar {\n  display: none;\n}\n\n.pr-card__body {\n  margin-top: 8px;\n}\n\n.pr-panel-text {\n  padding: 0;\n}\n\n.pr-panel-image-viewer-thumb {\n  max-height: 70vh;\n}\n\n.pr-slider {\n  padding: 0;\n}",
+    "faqEnabled": false,
+    "notificationEnabled": true,
+    "secondaryColor": "#826897",
+    "primaryColor": "#cc1964"
+  },
+  "web": {
+    "theme": {
+      "name": "lightBlue",
+      "config": {
+        "colors": {
+          "primary": "#bb5082",
+          "primary-light": "#fb1777",
+          "background": "rgba(170,22,64,0.06)",
+          "border-light": "rgba(170,22,64,0.2)",
+          "primary-dark": "#826897"
+        }
+      }
+    },
+    "customStyles": ".userAction {\n    color: #916ccb;\n    font-style: italic;\n}",
+    "enabled": true,
+    "secondaryColor": "#826897"
+  },
+  "mobileApp": {
+    "theme": {
+      "name": "lightBlue"
+    },
+    "home": [],
+    "about": [],
+    "config": {
+      "primaryColor": "#ff0072"
+    },
+    "dialog": {
+      "theme": {
+        "name": "lightBlue",
+        "config": {
+          "colors": {
+            "primary": "#bb5082",
+            "primary-light": "#fb1777",
+            "background": "rgba(170,22,64,0.06)",
+            "border-light": "rgba(170,22,64,0.2)",
+            "primary-dark": "#826897"
+          }
+        }
+      },
+      "customStyles": ".userAction {\n    color: #916ccb;\n    font-style: italic;\n}"
+    },
+    "enabled": true
+  }
+}
